@@ -1,0 +1,25 @@
+.loading{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.loading .loader{
+    border-style: solid;
+    border-color: rgb(220, 53, 75) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: 0.8s linear 0s infinite rotate;
+    position: relative;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

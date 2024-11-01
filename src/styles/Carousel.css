@@ -1,0 +1,76 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0;
+    background-color: #EBEBEB;
+}
+.carousel-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-button.left {
+    left: 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.carousel-button.right {
+    right: 0;
+    border-radius: 6px 0  0 6px;
+}
+.carousel-button.right img{
+    transform: rotate(180deg);
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+    .carousel {
+        background-color: #fff;
+    }
+    .carousel-slide img {
+        border-radius: 0px;
+    } 
+}

@@ -1,0 +1,136 @@
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+/* Navbar for larger screens */
+.navbar .for-desktop{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+}
+.navbar .for-desktop .inputfield{
+    position: relative;
+    width: 540px;
+}
+.navbar .for-desktop input{
+    width: 549px;
+    padding: 8px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #666;
+}
+.navbar .for-desktop .right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 25px;
+}
+.navbar .for-desktop .right p{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+    font-size: 14px;
+}
+.navbar .for-desktop .inputfield span{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navbar .for-desktop button{
+    background-color: #F84464;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+/* Navbar for smaller screens */
+.navbar .for-mobile{
+    display: none;
+    margin-bottom: 5px;
+}
+.navbar .for-mobile h2{
+    color: #404040;
+}
+.navbar .for-mobile p{
+    color: #F84464;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.navbar .for-mobile .right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar .for-mobile .use-app{
+    padding: 8px;
+    border-radius: 8px;
+    color: #525252;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid rgb(229, 229, 229);
+    cursor: pointer;
+}
+.search-for-mobile{
+    width: 100%;
+    padding: 10px;
+}
+.search-for-mobile input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #666;
+}
+
+.mobile-nav{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px;
+    border-top: 1px solid #ddd;
+    justify-content: space-evenly;
+    display: none;
+}
+.mobile-nav .links{
+    text-decoration: none;
+    color: #3a3a3a;
+    text-align: center;
+    font-size: 12px;
+}
+
+.mobile-nav .links.active p {
+    color: #DC3449;
+}
+
+@media screen and (max-width: 720px) {
+    .navbar{
+        padding: 5px 15px;
+    }
+    .navbar .for-desktop{
+        display: none;
+    }
+    .navbar .for-mobile{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .for-desktop .inputfield{
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+  }
+  
