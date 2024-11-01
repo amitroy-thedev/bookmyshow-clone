@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bookmyshow-clone/static/css/main.53f1f247.css",
+    "main.js": "/bookmyshow-clone/static/js/main.1926a160.js",
+    "static/js/453.b2a447a9.chunk.js": "/bookmyshow-clone/static/js/453.b2a447a9.chunk.js",
+    "static/media/slide3.jpg": "/bookmyshow-clone/static/media/slide3.8a09734865524159cf24.jpg",
+    "static/media/slide1.jpg": "/bookmyshow-clone/static/media/slide1.03cdd2c478caf3bd1c34.jpg",
+    "static/media/slide4.jpg": "/bookmyshow-clone/static/media/slide4.0e1640ffe6a0a0ccc0cd.jpg",
+    "static/media/slide2.jpg": "/bookmyshow-clone/static/media/slide2.836b53d7fad34cdc1926.jpg",
+    "static/media/slide6.jpg": "/bookmyshow-clone/static/media/slide6.882ad082ec1ceafd51c1.jpg",
+    "static/media/slide7.jpg": "/bookmyshow-clone/static/media/slide7.be45c8f748896079f7d1.jpg",
+    "static/media/logo.svg": "/bookmyshow-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bookmyshow-clone/index.html",
+    "static/media/sliderArrow.svg": "/bookmyshow-clone/static/media/sliderArrow.85fde44c3e118821d4cc896eb5bbc1d6.svg",
+    "static/media/arrowDown.svg": "/bookmyshow-clone/static/media/arrowDown.a1c48e8e03de9bcdacc0007cf29e9300.svg",
+    "static/media/searchIcon.svg": "/bookmyshow-clone/static/media/searchIcon.ca2573d85879c053d8dd36a2a5b1fabb.svg",
+    "static/media/hamburgerIcon.svg": "/bookmyshow-clone/static/media/hamburgerIcon.947f9e4b0cc195a350b6d8167f9e7f6f.svg",
+    "main.53f1f247.css.map": "/bookmyshow-clone/static/css/main.53f1f247.css.map",
+    "main.1926a160.js.map": "/bookmyshow-clone/static/js/main.1926a160.js.map",
+    "453.b2a447a9.chunk.js.map": "/bookmyshow-clone/static/js/453.b2a447a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f1f247.css",
+    "static/js/main.1926a160.js"
+  ]
+}
