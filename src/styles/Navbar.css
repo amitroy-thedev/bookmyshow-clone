@@ -102,6 +102,7 @@
     border-top: 1px solid #ddd;
     justify-content: space-evenly;
     display: none;
+    z-index: 999;
 }
 .mobile-nav .links{
     text-decoration: none;

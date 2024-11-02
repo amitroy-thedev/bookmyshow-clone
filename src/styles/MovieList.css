@@ -21,10 +21,11 @@
     overscroll-behavior-x: contain;
     scrollbar-width: none;
     display: grid;
-    grid-template-columns: repeat(6, calc(36% - 5));
+    grid-template-columns: repeat(5, calc(36% - 5));
     grid-template-rows: repeat(1, 1fr);
     grid-auto-flow: column;
     overflow: scroll hidden;
+    justify-content: start;
 }
 
 .movie-card {
