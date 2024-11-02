@@ -18,7 +18,6 @@ export default function MovieList() {
                         movies
                             .filter(movie => movie.Poster !== "N/A") // Exclude movies without posters
                             .filter(movie => movie.Title.toLowerCase().includes(searchTerm.toLowerCase()))
-                            .slice(0, 5)
                             .map(movie => (
                                 <div key={movie.imdbID} className="movie-card">
                                     <img src={movie.Poster} alt={movie.Title} />

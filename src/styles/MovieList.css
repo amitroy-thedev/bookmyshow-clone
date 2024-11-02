@@ -4,6 +4,7 @@
     width: 100%;
     align-items: center;
     padding: 10px 0;
+    margin-bottom: 50px;
 }
 
 .movies h2 {
@@ -15,10 +16,15 @@
 
 .movie-list {
     width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    gap: 25px;
-    height: 350px;
+    height: 450px;
+    gap: 0 25px;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(6, calc(36% - 5));
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-flow: column;
+    overflow: scroll hidden;
 }
 
 .movie-card {
@@ -31,12 +37,15 @@
     height: 100%;
     border-radius: 8px;
 }
-.movie-card h3{
+
+.movie-card h3 {
     font-size: 18px;
 }
-.movie-card p{
+
+.movie-card p {
     color: #666;
 }
+
 @media screen and (max-width: 720px) {
     .movies {
         padding: 15px;
@@ -49,20 +58,15 @@
 
     .movie-list {
         width: 100%;
-        gap: 0 8px;
-        overscroll-behavior-x: contain;
-        scrollbar-width: none;
-        display: grid;
-        grid-template-columns: repeat(6, calc(36% - 5));
-        grid-template-rows: repeat(1, 1fr);
-        grid-auto-flow: column;
-        overflow: scroll hidden;
+        height: 350px;
     }
+
     .movie-card {
         width: 150px;
         height: 250px;
     }
-    .movie-card h3{
+
+    .movie-card h3 {
         font-size: 14px;
     }
 }
